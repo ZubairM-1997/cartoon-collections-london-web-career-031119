@@ -18,7 +18,7 @@ def summon_captain_planet(array)
   nu_array = []
   i = 0 
   while i < array.length 
-    nu_array << array[i].capitalize + "!"
+    nu_array << array[i].upcase + "!"
     i += 1 
   end 
   nu_array
